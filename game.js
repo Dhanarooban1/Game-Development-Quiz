@@ -109,10 +109,7 @@ function generateTopic() {
 }
 
 
-let wrongAnswerSound = document.getElementById("wrong-answer-sound");
-wrongAnswerSound.load();
-wrongAnswerSound.muted = false;
-wrongAnswerSound.volume = 1;
+
 
 function clickOnImage(e) {
   console.log(e.target.id);
@@ -126,7 +123,6 @@ function clickOnImage(e) {
     // startTimer();
     scoreselement.innerText = score;
   } else {
-    wrongAnswerSound.play();
     localStorage.setItem("scoren", score);
     location.href = "gameover.html";
   }
