@@ -23,8 +23,9 @@ body{
 .gamename {
   position: absolute;
   transform: translate(5vw, -1vw);
-  top: 0vw;
+  top: 3vw;
   left: 42vw;
+
 }
 
 
