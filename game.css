@@ -1,0 +1,106 @@
+body {
+  background-image: url('assets/wp5679143.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: black ops one, Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+#gamefunctions{
+  color: rgb(241, 241, 241);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: end;
+  width:100%;
+  height: 60px;
+  font-size: 1.5vw;
+  margin: 10px -1px;
+ background-color: #202020;
+}
+
+#times, #scores{
+  margin: 5px;
+  color: rgb(255, 255, 255);
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+pre {
+ font-family: black ops one, Arial, Helvetica, sans-serif;
+  text-wrap: wrap;
+  font-size: 1.6em;
+  text-wrap: wrap;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 5px;
+  font-weight: 100;
+  position: absolute;
+  z-index: 1;
+}
+
+img{
+  width: 12vw;
+
+}
+
+.imageclass {
+  padding: 10px; 
+  transition: transform 0.3s ease; 
+}
+
+.imageclass:hover {
+  transform: scale(1.1); 
+}
+
+.answers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  transform: translate(0vw,12vw);
+}
+
+.option {
+  box-shadow: rgb(255, 0, 0) 0px 2px 5px -1px, rgb(255, 255, 255) 0px 1px 3px -1px;
+  color: whitesmoke;
+  margin-bottom: 1em;
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+body{
+  background-size: cover;
+}
+
+  #times, #scores{
+    width: 100vw;
+     font-size: large;
+  }
+  pre {
+    transform: translate(5vw, -5vw);
+  }
+  .answers .option{
+   margin-top: 280px;
+  }
+
+  .option{
+    margin-bottom: 0.5em;
+    border: 1px solid rgba(93, 38, 38, 0);
+    box-shadow: none;
+  }
+  .answers{
+    display: flex;
+    flex-direction: row; 
+    padding: 14px;
+  }
+}

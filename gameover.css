@@ -1,0 +1,72 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('assets/wp5679143.webp');
+    background-size: cover;
+    background-position: center;
+    color: white !important;
+    font-family: black ops one, Arial, Helvetica, sans-serif;
+}
+
+  
+  .container {
+    text-align: center;
+  }
+  
+  #bt1 {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #bt1:hover {
+    background-color: #0056b3;
+  }
+
+  #bt1,#whatsapp {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #bt1 :hover {
+    background-color: #0056b3;
+  }
+
+
+
+  #bt2 {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #bt2:hover {
+    background-color: #0056b3;
+  }
+
+  
+  @media screen and (max-width: 600px) {
+  *{
+    color: azure;
+  }
+  }
