@@ -32,9 +32,9 @@ body {
 pre {
  font-family: black ops one, Arial, Helvetica, sans-serif;
   text-wrap: wrap;
-  font-size: 1.6em;
+  font-size: 1.9em;
   text-wrap: wrap;
-  background: -webkit-linear-gradient(#eee, #333);
+  background: -webkit-linear-gradient(#eee, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: 5px;
@@ -63,6 +63,7 @@ img{
   justify-content: center;
   justify-content: space-between;
   transform: translate(0vw,12vw);
+  
 }
 
 .option {
@@ -91,7 +92,9 @@ body{
     transform: translate(5vw, -5vw);
   }
   .answers .option{
-   margin-top: 280px;
+ margin: 0px 20px;
+   margin-top: 50px;
+
   }
 
   .option{
