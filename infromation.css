@@ -14,7 +14,7 @@ body{
     box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
     /* border: 1px solid red; */
     position: absolute;
-    top: 50%;
+    top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
@@ -114,16 +114,18 @@ body {
 
   @media screen and (max-width: 480px) {
     body {
-        font-size: 18px;
+        font-size: 15px;
     }
     #instr {
-      margin-top: 190vw; /* Adjust this value as needed */
+
+      margin-top: 700px; /* Adjust this value as needed */
   }
     #instr ul li {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .home {
+      margin: 10px;
         width: 180px;
         height: 40px;
     }

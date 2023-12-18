@@ -23,7 +23,7 @@ function restart (){
 }
 
 function quit(){
-  window.location.href="./startpage.html"
+  window.location.href="./index.html"
 }
 document.getElementById("playerName").innerHTML=playerName
 

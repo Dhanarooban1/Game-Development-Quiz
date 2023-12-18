@@ -366,4 +366,9 @@ transform: translate(-50%, -50%);
   .parent{
     transform: translate(-1vw, 15vw);
   }
+  .information{
+    margin: 10px;
   }
+  }
+
+  

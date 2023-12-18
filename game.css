@@ -16,7 +16,7 @@ body {
   height: 60px;
   font-size: 1.5vw;
   margin: 10px -1px;
- background-color: #202020;
+ background-color: #121111;
 }
 
 #times, #scores{
@@ -66,7 +66,8 @@ img{
 }
 
 .option {
-  box-shadow: rgb(255, 0, 0) 0px 2px 5px -1px, rgb(255, 255, 255) 0px 1px 3px -1px;
+  background-color: #121111;
+  box-shadow: rgb(56, 54, 54) 0px 2px 5px -1px, rgb(255, 255, 255) 0px 1px 3px -1px;
   color: whitesmoke;
   margin-bottom: 1em;
   width: 10vw;
@@ -94,6 +95,7 @@ body{
   }
 
   .option{
+    background-color: rgba(255, 0, 0, 0);
     margin-bottom: 0.5em;
     border: 1px solid rgba(93, 38, 38, 0);
     box-shadow: none;
